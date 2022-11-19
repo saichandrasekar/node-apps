@@ -18,7 +18,7 @@ export class GeneratorController {
   
   @Post()
   printCustomText(@Body() textGenRequest: TextGenRequest): string {
-	
+	 
 	console.log(JSON.stringify(textGenRequest));
 	 
 	  
